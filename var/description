@@ -1,0 +1,3 @@
+YARD QED is a plugin for YARD that automatically
+adds a QED document directory to YARD docs as a
+single document.
