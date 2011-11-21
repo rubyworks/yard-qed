@@ -15,13 +15,8 @@ yard:
   yardopts : true
   priority : 2
 
-# TODO: Replace with LOCat.
-# locat:
-#  title    : ~
-#  loadpath : ~
-#  exclude  : ~
-#  output   : ~
-#  active   : false
+locat:
+  output: log/locat.html
 
 dnote:
   title: Source Notes
