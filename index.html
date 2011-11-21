@@ -6,6 +6,7 @@
     body { margin: 0; padding: 0; font-family: sans-serif; }
     a { text-decoration: none; font-size: 0.9em; }
     a:hover { text-decoration: underline; }
+    img { border: 0; }
     li p { margin: 0px; padding: 2px; }
     pre { padding: 10px; }
     button { border: none; background: transparent; font-size: 1.3em; }
@@ -22,14 +23,14 @@
 
     .sidenote { float: right; width: 200px; background: #fff; border: 1px solid #ccc; padding: 5px; text-align: center; margin: 10px; }
 
-    #birdframe { background: url(assets/ss8.png) top center no-repeat #e4e4e4; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+    #birdframe { background: url(assets/screenshot.png) top center no-repeat #e7e7e7; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
 
     #readme { margin: 60px auto; width: 960px; color: #333; }
 
     #footer { margin: 30px auto; width: 960px; font-size: 0.8em; color: #777; }
     #footer .ad { margin: 0 auto; width: 730px; }
 
-    #copyright { margin-top: 20px; text-align: center; padding: 5px; }
+    #copyright { margin: 20px 0; text-align: center; padding: 5px; font-size: 0.8em; }
   </style>
 
   <script language="javascript" type="text/javascript" src="assets/jquery.js"></SCRIPT>
@@ -52,7 +53,7 @@
     <div class="page">
       <div class="sidenote">
         Latest Release: <b>0.1.0</b><br/><br/>
-        <a href="http://rubydoc.info/gems/yard-qed">README</a>
+        <a href="http://rubydoc.info/gems/yard-qed/frames">README</a>
       </div>
       <h1>YARD-QED</h1>
       <h2>A QED plugin for the YARD Documentation Tool</h2>
@@ -66,14 +67,14 @@
     </div>
   </div>
 
-  <div id="birdframe" style="height: 300px">
+  <div id="birdframe" style="height: 400px">
     <div class="page" style="text-align: center;">
       <h1>QED is in the YARD!</h1>
-      <img src="assets/logo.png" height="290px" style="margin-left: 500px;" />
+      <!-- <img src="assets/logo.png" height="290px" style="margin-top: 100px; margin-left: 500px;" /> -->
     </div>
   </div>
 
-  <div class="page" style="padding: 30px 0 30px 40px;">
+  <div class="page" style="padding: 30px 0;">
     <button onclick="$('#readme').toggle();">Learn more...</button>
   </div>
 
@@ -102,7 +103,7 @@
   </div>
 
   <div id="copyright">
-    Copyright (c) 2011 <a href="http://rubyworks.github.com/">Rubyworks</a>
+    Copyright (c) 2011 <a href="http://rubyworks.github.com/">Rubyworks</a>. All rights reserved.
   </div>
 
   <div style="position: absolute; top: 0; right: 0;">
