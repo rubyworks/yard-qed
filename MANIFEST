@@ -1,4 +1,7 @@
 #!mast .ruby .yardopts bin eg lib man qed spec test [A-Z]*.*
 .ruby
+.yardopts
 lib/yard-qed.rb
+HISTORY.rdoc
 README.rdoc
+COPYING.rdoc
