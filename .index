@@ -1,35 +1,48 @@
 ---
-source:
-- var
+type: ruby
+revision: 2013
+sources:
+- index
+- Gemfile
 authors:
 - name: Trans
   email: transfire@gmail.com
+organizations: []
+requirements:
+- groups:
+  - default
+  version: ! '>= 0'
+  name: yard
+- groups:
+  - development
+  - build
+  version: ! '>= 0'
+  name: detroit
+conflicts: []
+alternatives: []
+resources:
+- type: home
+  uri: http://rubyworks.github.com/yard-qed
+  label: Homepage
+- type: code
+  uri: http://github.com/rubyworks/yard-qed
+  label: Source Code
+- type: mail
+  uri: http://groups.google.com/group/rubyworks-mailinglist
+  label: Mailing List
+- type: bugs
+  uri: http://github.com/rubyworks/yard-qed/issues
+  label: Issue Tracker
+repositories:
+- name: upstream
+  scm: git
+  uri: git://github.com/rubyworks/yard-qed.git
+categories: []
+load_path:
+- lib
 copyrights:
 - holder: Rubyworks
   year: '2011'
-replacements: []
-alternatives: []
-requirements:
-- name: yard
-- name: detroit
-  groups:
-  - build
-  development: true
-dependencies: []
-conflicts: []
-repositories:
-- uri: git://github.com/rubyworks/yard-qed.git
-  scm: git
-  name: upstream
-resources:
-  home: http://rubyworks.github.com/yard-qed
-  code: http://github.com/rubyworks/yard-qed
-  mail: http://groups.google.com/group/rubyworks-mailinglist
-  bugs: http://github.com/rubyworks/yard-qed/issues
-extra: {}
-load_path:
-- lib
-revision: 0
 created: '2011-11-18'
 summary: QED plugin for YARD
 title: YARD QED
@@ -40,5 +53,4 @@ description: ! 'YARD QED is a plugin for YARD that automatically
   adds a QED document directory to YARD docs as a
 
   single document.'
-organization: rubyworks
-date: '2011-11-19'
+date: '2012-12-08'
