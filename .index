@@ -2,8 +2,9 @@
 type: ruby
 revision: 2013
 sources:
-- index
+- var
 - Gemfile
+- VERSION
 authors:
 - name: Trans
   email: transfire@gmail.com
@@ -46,11 +47,11 @@ copyrights:
 created: '2011-11-18'
 summary: QED plugin for YARD
 title: YARD QED
-version: 0.1.0
 name: yard-qed
 description: ! 'YARD QED is a plugin for YARD that automatically
 
   adds a QED document directory to YARD docs as a
 
   single document.'
+version: 0.1.0
 date: '2012-12-08'
